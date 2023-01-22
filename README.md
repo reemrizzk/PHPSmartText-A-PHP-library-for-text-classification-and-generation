@@ -9,6 +9,8 @@ For a more accurate text classification, please train the model with an equal am
 If you have two classification tags: "Spam" and "Not Spam", you need to train the model with a roughly equal amount of data classified as "Spam", and data classified as "Not Spam".
 If for example, you trained the model with 1000 "Spam" data and 500 "Not Spam" data, the results can be very inaccurate.
 
+To run the code on a local computer, you need a local server that supports PHP and MySQL, if you don't have a server, you can check XAMPP server. It's free and open source.
+
 During development, and while training the models, you can run http://localhost/PHPSmartText for training and testing models through GUI if you like, when deploying into production, you only need the library.php file (Which includes the class and all the functions) and the database with the trained models. Run ai_datasets.sql to create the database, and include library.php from your code, afterwards, create an instance of the class:
 ``` $php_smart_text = new PHPSmartText(); ```
 
