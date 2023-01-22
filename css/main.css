@@ -1,0 +1,110 @@
+html * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#header {
+	display: flex;
+	padding: 6px;
+	justify-content: space-around;
+	color: #2090EE;
+	font-weight: bold;
+    border-bottom: 1px solid #BBBBBB;
+}
+#header h4 {
+    color: #000000;
+}
+#header a, #header a:active, #header a:visited {
+    text-decoration: none;
+    color: #2090EE;
+}
+ #header a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600 !important;
+}
+.border-gray {
+    border: 1px solid #D0D4D6;
+}
+.rounded {
+    border-radius: 4px;
+}
+.padding {
+    padding: 12px;
+}
+.mb {
+   margin-bottom: 6px; 
+}
+select {
+    height: 24px !important;
+}
+.column {
+    width: 47%;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+.light-gray {
+    background-color: #F8FBFD;
+}
+.gray-text {
+    color: #505050;
+}
+.red-text {
+    color: #DD0000;
+}
+.small {
+    font-size: 12px;
+}
+.medium {
+    font-size: 14px;
+}
+            .textbox-round-rect-gray {
+                padding: 8px;
+                border: 1px solid #BBBBBB;
+                border-radius: 4px;
+                outline: none;
+                webkit-appearance: none;
+            }
+            .textbox-round-rect-gray:focus {
+                border-color: #2090EE;
+            }
+            
+            #input-text {
+                width: 96%;
+                resize: vertical;
+            }
+            
+            .button-blue {
+                display: block;
+                margin-top: 6px;
+                border-radius: 2px;
+                background-color: #2090EE;
+                color: #FFFFFF;
+                cursor: pointer;
+                padding: 7px 20px;
+                border-style: none;
+                webkit-appearance: none;
+            }
+            .button-blue:hover {
+                opacity: 0.95;
+            }
+            .select-round-rect-gray {
+                border: 1px solid #BBBBBB;
+                border-radius: 2px;
+                outline: none;
+                webkit-appearance: none;
+                padding: 0;
+                margin-top: 0;
+                min-width: 60px;
+            }
+            .select-round-rect-gray:focus {
+                border-color: #2090EE;
+            }
+
+@media only screen and (max-width: 675px) {
+  .column {
+    width: 96%;
+  }
+}
