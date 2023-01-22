@@ -1,4 +1,4 @@
-# PHPSmartText-A-PHP-library-for-text-classification-and-generatio
+# PHPSmartText-A-PHP-library-for-text-classification-and-generation
 PHP Smart Text is a simple and lightweight machine learning and teachable model library in PHP, and uses MySQL database. PHP Smart Text is free and open-source.
 
 PHP Smart Text can be used to classify or generate text, which can be used to make AI chatbots, detect spam, detect fake news, generate articles, poems, and more.. Unleash your creativity!
